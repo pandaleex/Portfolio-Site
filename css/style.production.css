@@ -20,7 +20,7 @@ Secondary Color (Green): #00885a;
 }
 
 html {
-    background-color: #e5e5e5;
+    background-color: white;
 }
 
 body {
@@ -95,7 +95,8 @@ button:hover, button:focus {
 
 .profile {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 10em auto;
+
 }
 
 .page-footer {
@@ -119,8 +120,9 @@ button:hover, button:focus {
   width: 100%;
   background-color: white;
   padding: 20px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-          box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  border-bottom-style: solid;
+  border-color: #337D99;
+  border-width: 0.2em;
 }
 
 .page-header__item {
@@ -268,9 +270,18 @@ button:focus,
 }
 
 .about-me {
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto;
   text-align: center;
+}
+
+.contact {
+  max-width: 80%;
+  margin: 0 2em;
+}
+
+.skills {
+  margin: 0 auto;
 }
 
 .work {
